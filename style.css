@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
 }
 body{
     margin: 0;
@@ -10,12 +11,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('/bg.jpg') no-repeat center;
+    background-size: stretch;
+   
 }
 h1{ 
-    font-size: 2.3em;
+    font-size: 2.5em;
     font-weight: 500;
+    padding-top: 5px;
 }
 #calc-container{
+    background-color: rgba(245, 245, 245, 0.781);
     padding: 35px;
     border: 1px solid rgb(206, 206, 206);
     border-radius: 6px;
