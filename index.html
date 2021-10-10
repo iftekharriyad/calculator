@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="math.js" type="text/javascript"></script>   
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calc-container">
+        <h1>Calculator</h1>
+        <div id="calc">
+            <div id="screen">
+                <input type="text">
+            </div>
+            <p id="answer"></p>
+            <div id="radio-buttons">
+                <div>
+                    <input type="radio" name="angle-unit" id="rad" value="rad" checked='checked'>
+                    <label for="rad">Rad</label>
+                </div>
+                <div>
+                    <input type="radio" id="deg" name="angle-unit" value="deg">
+                    <label for="deg">Deg</label>
+                </div>
+
+                <button id="arrow">←</button>
+            </div>
+            <div id="buttons">
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>   
+</body>
+</html>

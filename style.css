@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{ 
+    font-size: 2.3em;
+    font-weight: 500;
+}
+#calc-container{
+    padding: 35px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 6px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#calc{
+    /* border: 1px solid red; */
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+#screen{
+    width: 100%;
+}
+#screen input{
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    padding: 2px 0px;
+    margin-top: 10px;
+}
+#answer{
+    padding: 0px 2px;
+    display: block;
+    align-self: flex-end;
+}
+#radio-buttons{
+    width: 100%;
+    padding: 7px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#arrow{
+    font-size: 24px;
+    display: block;
+    margin-left: auto;
+    padding: 1px 13px;
+}
+#buttons{
+    /* border: 1px solid green; */
+    margin-top: 4px;
+    width: 100%;
+    display: grid;
+    grid: auto/1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+#buttons button{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding: 7px;
+}
+.red{
+    color: red;
+}
